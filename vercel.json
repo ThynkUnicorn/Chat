@@ -10,5 +10,5 @@
   "routes": [
     { "src": "/api/chat", "dest": "/backend/api/chat.js" }
   ],
-  "root": "frontend"            // ⬅︎  only if you want Vercel to build the React app
+  "root": "frontend"
 }
