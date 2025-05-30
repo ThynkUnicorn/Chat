@@ -14,12 +14,12 @@
   ],
   "routes": [
     {
-      "src": "/api/chat",
-      "dest": "/backend/api/chat.js"
+      "src": "^/api/chat$",
+      "dest": "backend/api/chat.js"
     },
     {
-      "src": "/(.*)",
-      "dest": "/frontend/dist/$1"
+      "src": "^/(.*)$",
+      "dest": "frontend/dist/$1"
     }
   ]
 }
